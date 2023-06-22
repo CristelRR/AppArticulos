@@ -1,0 +1,35 @@
+<div class="card mx-auto">
+    <form>
+        <div class="login text-center" style=" padding: 5px; margin-bottom: 10px; ">
+            <h5>Cargar Artículo</h5>
+        </div>
+        <div class="entrada mb-3">
+            <i class="fa-solid fa-building-columns"></i>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Tipo Subsistema</option>
+                <option value="1">Universidad Tecnológica</option>
+                <option value="2">Universidad Polítecnica</option>
+                <option value="3">Instituto Tecnológico</option>
+              </select>
+        </div>
+        <div class="entrada mb-3">
+            <i class="fa-solid fa-book"></i>            
+            <input type="articulo" class="form-control" id="exampleInputArticulo" aria-describedby="ArticuloHelp" placeholder="Título artículo">
+        </div>
+        <div class="entrada mb-3">
+            <i class="fa-solid fa-user"></i>
+            <input type="autor" class="form-control" id="exampleInputAutor" aria-describedby="autorHelp" placeholder="Autor">
+        </div>
+        <div class="entrada mb-3">
+            <i class="fa-sharp fa-solid fa-book-open"></i>
+            <textarea class="form-control" rows="3"  placeholder="Breve resumen del artículo"></textarea>
+        </div>
+        <div class="entrada mb-3">
+            <i class="fa-solid fa-file"></i>            
+            <input class="form-control" type="file" id="formFile">
+        </div>
+        <div class="entrada mb-3">
+            <button type="submit" class="btn btn-primary" style="width: 390px;">Carga</button>
+        </div>       
+    </form>
+</div>
